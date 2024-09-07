@@ -129,6 +129,8 @@ async function getEveeData() {
   console.log('Abilities:', data.abilities);
 }
 
+getEveeData();
+
 
 // Summary:
 // These exercises help you practice using `fetch` and `async/await` to interact with a RESTful API, specifically the Pokémon API.
