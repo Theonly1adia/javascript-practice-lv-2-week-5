@@ -26,7 +26,7 @@ Mac/Win [intall](https://www.npmjs.com/package/lolcatjs)
 
 Use Chrome to download Pikachu's data. (Pikachu's ID is 25.)
 
-    https://pokeapi.co/api/v2/pokemon/25
+    curl 
 
 Use `curl` to download Pikachu's data. Type this into the terminal.
 

@@ -51,8 +51,8 @@ async function getSquirtleData() {
   const url = 'https://pokeapi.co/api/v2/pokemon/7';
   const response = await fetch(url);
   const data = await response.json();
-  console.log('Name:', data.name);
-  console.log('Experience:', data.experience);
+  console.log('Name:'+ data.name);
+  console.log(data);
 }
 
 getSquirtleData();
