@@ -121,7 +121,8 @@ async function getFirstType() {
   const data = await response.json();
   
   // Log the name of the first type
-  console.log('First Type:', data.name);
+  console.log(`Pokémon Name: ${data.name}`);
+  console.log(``)
 }
 
 getFirstType();
